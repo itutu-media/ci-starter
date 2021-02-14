@@ -1,0 +1,33 @@
+{
+  "name": "itutu-media/cistarter",
+  "description": "CodeIgniter 4 starter kit by ITUTU Media (https://itutu-media.id).",
+  "keywords": [
+    "codeigniter"
+  ],
+  "homepage": "https://github.com/itutu-media/cistarter",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ITUTU Media",
+      "email": "admin@itutu-media.id",
+      "homepage": "https://itutu-media.id",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/codeigniter4/CodeIgniter4"
+    }
+  ],
+  "require": {
+    "php" : ">=7.2",
+    "myth/auth": "^1.0"
+  },
+  "minimum-stability": "beta",
+  "autoload": {
+    "psr-4": {
+      "IM\\CI\\": "src"
+    }
+  }
+}
